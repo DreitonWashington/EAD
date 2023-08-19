@@ -66,4 +66,5 @@ public class AuthUserClient {
         String url = REQUEST_URL_AUTHUSER + "/users/courses/" + courseId;
         restTemplate.exchange(url, HttpMethod.DELETE, null, String.class);
     }
+
 }
