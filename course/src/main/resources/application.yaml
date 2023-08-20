@@ -19,6 +19,9 @@ spring:
     properties:
       hibernate:
         show_sql: true
+  rabbitmq:
+    addresses: amqps://kzaebmsl:ejl-44VkgtAwcX9upLqYmdXBF_VRZFtd@woodpecker.rmq.cloudamqp.com/kzaebmsl
+
 logging:
   level:
     com.ead: TRACE
