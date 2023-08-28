@@ -27,4 +27,5 @@ public class CourseDto {
 
     @NotNull
     private CourseLevel courseLevel;
+
 }
