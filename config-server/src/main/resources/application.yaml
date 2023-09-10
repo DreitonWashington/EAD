@@ -11,7 +11,7 @@ spring:
           uri: https://github.com/DreitonWashington/ead-config-server-repo
           default-label: main
           username: DreitonWashington
-          password: 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
+          password: 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
 
 eureka:
   client:
