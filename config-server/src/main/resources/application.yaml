@@ -11,9 +11,12 @@ spring:
           uri: https://github.com/DreitonWashington/ead-config-server-repo
           default-label: main
           username: DreitonWashington
-          password: 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
+          password: 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
 
 ead:
+  configServer:
+    username: configserver
+    password: 'ead123cs'
   serviceRegistry:
     username: serviceregistry
     password: 'ead123sr'
