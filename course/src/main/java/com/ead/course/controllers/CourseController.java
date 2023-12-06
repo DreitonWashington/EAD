@@ -37,7 +37,7 @@ public class CourseController {
     @Autowired
     CourseValidator courseValidator;
 
-    @PreAuthorize("hasAnyRole('INSTRUCTOR')")
+    @PreAuthorize("hasAnyRole('INSTRUCTOR','ADMIN')")
     @PostMapping
     public ResponseEntity<Object> saveCourse(@RequestBody CourseDto courseDto, Errors errors){
         log.debug("POST saveCourse courseDto received {} ", courseDto.toString());
